@@ -11,7 +11,7 @@ public class CasaConjuntoCerrado extends CasaUrbana {
     protected boolean TienePiscina;
     protected boolean TieneCamposDeportivos;
     
-    public CasaConjuntoCerrado(int IdentificadorInmobiliario, int Area,String Direccion, int NumeroHabitaciones, int NumeroBaños,int NumeroPisos, int valorAdministracion, boolean TienePiscina,boolean TieneCamposDeportivos) {
+    public CasaConjuntoCerrado(int IdentificadorInmobiliario, int Area,String Direccion, int NumeroHabitaciones, int NumeroBaños,int NumeroPisos, int ValorAdministracion, boolean TienePiscina,boolean TieneCamposDeportivos) {
         super(IdentificadorInmobiliario, Area, Direccion,NumeroHabitaciones, NumeroBaños, NumeroPisos);
         this.ValorAdministracion = ValorAdministracion;
         this.TienePiscina = TienePiscina;
